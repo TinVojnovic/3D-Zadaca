@@ -150,11 +150,11 @@ int main() {
 	Light light(vec3(1.0, 1.0, 1.0), vec3(0.0, 0.0, 3.0));
 
 	vector<Mesh*> meshes;
-	Mesh cube1("./cube.obj", stone_diff, stone_spec, 1000.f, vec3(1.0, 1.0, 1.0), vec3(-3.0, -3.0, 0.0));
-	Mesh cube2("./cube.obj", ice_diff, ice_spec, 1000.f, vec3(1.0, 1.0, 1.0), vec3(-3.0, 3.0, 0.0));
+	Mesh cube1("./cube.obj", stone_diff, stone_spec, 1000.f, vec3(1.0, 1.0, 1.0), vec3(-3.0, 3.0, 0.0));
+	Mesh cube2("./cube.obj", ice_diff, ice_spec, 1000.f, vec3(1.0, 1.0, 1.0), vec3(3.0, -3.0, 0.0));
 	Mesh pyramid1("./pyramid.obj", ice_diff, ice_spec, 1000.f, vec3(1.0, 1.0, 1.0), vec3(3.0, 3.0, 0.0));
 	Mesh sword("./sword.obj", ice_diff, ice_spec, 1000.f, vec3(1.0, 1.0, 1.0), vec3(1.5, -1.0, 0.0));
-	Mesh pyramid2("./pyramid.obj", stone_diff, stone_spec, 1000.f, vec3(1.0, 1.0, 1.0), vec3(3.0, -3.0, 0.0));
+	Mesh pyramid2("./pyramid.obj", stone_diff, stone_spec, 1000.f, vec3(1.0, 1.0, 1.0), vec3(-3.0, -3.0, 0.0));
 	Mesh cube3("./cube.obj", stone_diff, stone_spec, 1000.f, vec3(0.77, 1.2, 1.0), vec3(-3.0, -3.0, 0.0));
 
 	meshes.push_back(&cube1);
